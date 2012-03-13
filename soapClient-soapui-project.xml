@@ -61,12 +61,12 @@
       <soap:address location="http://localhost:8081/soapServerMime/services/test"/>
     </wsdl:port>
   </wsdl:service>
-</wsdl:definitions>]]></con:content><con:type>http://schemas.xmlsoap.org/wsdl/</con:type></con:part></con:definitionCache><con:endpoints><con:endpoint>http://localhost:8081/soapServerMime/services/test</con:endpoint></con:endpoints><con:operation isOneWay="false" action="" name="serviceMethod" bindingOperationName="serviceMethod" type="Request-Response" inputName="" receivesAttachments="true" sendsAttachments="false" anonymous="optional"><con:settings/><con:call name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8081/soapServerMime/services/test</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soap="http://soapserver.mime/">
+</wsdl:definitions>]]></con:content><con:type>http://schemas.xmlsoap.org/wsdl/</con:type></con:part></con:definitionCache><con:endpoints><con:endpoint>http://localhost:8081/soapServerMime/services/test</con:endpoint></con:endpoints><con:operation isOneWay="false" action="" name="serviceMethod" bindingOperationName="serviceMethod" type="Request-Response" inputName="" receivesAttachments="true" sendsAttachments="false" anonymous="optional"><con:settings/><con:call name="Request 1"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8081/soapServerMime/services/test</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soap="http://soapserver.mime/">
    <soapenv:Header/>
    <soapenv:Body>
       <soap:serviceMethodRequest>
          <!--Optional:-->
-         <intA>?</intA>
+         <intA>5</intA>
       </soap:serviceMethodRequest>
    </soapenv:Body>
-</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://soapserver.mime/TestService/serviceMethodRequest"/></con:call><con:responseParts><con:part name="attachment"><con:contentType>application/octet-stream</con:contentType></con:part></con:responseParts></con:operation></con:interface><con:properties/><con:wssContainer/></con:soapui-project>
+</soapenv:Envelope>]]></con:request><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://soapserver.mime/TestService/serviceMethodRequest"/><con:wsrmConfig version="1.2"/></con:call><con:responseParts><con:part name="attachment"><con:contentType>application/octet-stream</con:contentType></con:part></con:responseParts></con:operation></con:interface><con:properties/><con:wssContainer/></con:soapui-project>

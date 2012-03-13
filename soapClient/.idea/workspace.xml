@@ -2,17 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb729d3e-42e6-4e0a-add7-0be74e578bc3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/soapClient-grailsPlugins.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/Config.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/soapclient/ClientController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/soapclient/ClientController.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/soapClient-grailsPlugins.iml" afterPath="$PROJECT_DIR$/soapClient-grailsPlugins.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/soapClient.iml" afterPath="$PROJECT_DIR$/soapClient.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/mime/soapserver/TestService.java" afterPath="$PROJECT_DIR$/src/java/mime/soapserver/TestService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/mime/soapserver/TestServiceServicePorts.java" afterPath="$PROJECT_DIR$/src/java/mime/soapserver/TestServiceServicePorts.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/noattachment/holders/soapserver/ServiceMethodResponse.java" afterPath="$PROJECT_DIR$/src/java/noattachment/holders/soapserver/ServiceMethodResponse.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/noattachment/holders/soapserver/TestService.java" afterPath="$PROJECT_DIR$/src/java/noattachment/holders/soapserver/TestService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/noattachment/holders/soapserver/TestServiceServicePorts.java" afterPath="$PROJECT_DIR$/src/java/noattachment/holders/soapserver/TestServiceServicePorts.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/noholders/soapserver/ServiceMethodResponse.java" afterPath="$PROJECT_DIR$/src/java/noholders/soapserver/ServiceMethodResponse.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/noholders/soapserver/TestService.java" afterPath="$PROJECT_DIR$/src/java/noholders/soapserver/TestService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/noholders/soapserver/TestServiceServicePorts.java" afterPath="$PROJECT_DIR$/src/java/noholders/soapserver/TestServiceServicePorts.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/nomime/soapserver/TestService.java" afterPath="$PROJECT_DIR$/src/java/nomime/soapserver/TestService.java" />
@@ -36,7 +35,7 @@
   </component>
   <component name="DebuggerManager">
     <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/src/groovy/mime/soapserver/CustomInInterceptor.groovy" line="53" class="mime.soapserver.CustomInInterceptor" package="">
+      <breakpoint url="file://$PROJECT_DIR$/src/groovy/mime/soapserver/CustomInInterceptor.groovy" line="53" class="mime.soapserver.CustomInInterceptor" package="mime.soapserver">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -90,10 +89,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CustomInInterceptor.groovy" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="CustomInInterceptor.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/groovy/mime/soapserver/CustomInInterceptor.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="61" selection-start="2023" selection-end="2023" vertical-scroll-proportion="0.0">
+            <state line="57" column="21" selection-start="2122" selection-end="2344" vertical-scroll-proportion="0.39517626">
               <folding />
             </state>
           </provider>
@@ -111,7 +110,7 @@
       <file leaf-file-name="ServiceMethodRequest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/mime/soapserver/ServiceMethodRequest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="29" selection-start="1001" selection-end="1001" vertical-scroll-proportion="0.0">
+            <state line="31" column="13" selection-start="844" selection-end="844" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -120,16 +119,117 @@
       <file leaf-file-name="TestService.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/mime/soapserver/TestService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="46" selection-start="1146" selection-end="1146" vertical-scroll-proportion="0.0">
+            <state line="20" column="16" selection-start="559" selection-end="559" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Config.groovy" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TestService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/nomime/soapserver/TestService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="16" selection-start="563" selection-end="563" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testServiceNoMime.wsdl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../soapServer_noMime/testServiceNoMime.wsdl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="35" selection-start="1719" selection-end="1719" vertical-scroll-proportion="-16.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClientController.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/controllers/soapclient/ClientController.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="43" column="126" selection-start="2884" selection-end="2884" vertical-scroll-proportion="-13.521739">
+              <folding>
+                <element signature="e#20#46#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HolderInInterceptor.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/My Documents/Downloads/apache-cxf-2.5.2-src.zip!/apache-cxf-2.5.2-src/rt/frontend/jaxws/src/main/java/org/apache/cxf/jaxws/interceptors/HolderInInterceptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="64" column="0" selection-start="2453" selection-end="2453" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessageContentsList.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/My Documents/Downloads/apache-cxf-2.5.2-src.zip!/apache-cxf-2.5.2-src/api/src/main/java/org/apache/cxf/message/MessageContentsList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="70" column="50" selection-start="2263" selection-end="2263" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArrayList.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$project_jdk_name$/src.zip!/java/util/ArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="546" column="0" selection-start="20073" selection-end="20073" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebServiceClientFactoryImpl.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.grails/1.3.7/projects/soapClient/plugins/cxf-client-1.2.9/src/groovy/com/grails/cxf/client/WebServiceClientFactoryImpl.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="263" column="0" selection-start="13685" selection-end="13685" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Holder.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$project_jdk_name$/src.zip!/javax/xml/ws/Holder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="9" selection-start="438" selection-end="438" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="XMLSchema.xsd" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/XMLSchema.xsd">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1657" column="1" selection-start="57348" selection-end="57348" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServiceMethodResponse.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/mime/soapserver/ServiceMethodResponse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="13" selection-start="858" selection-end="858" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Config.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="14" selection-start="2956" selection-end="3011" vertical-scroll-proportion="0.21511628">
+            <state line="75" column="39" selection-start="3235" selection-end="3235" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testServiceMime.wsdl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../soapServer_Mime/testServiceMime.wsdl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="36" selection-start="1915" selection-end="1915" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -144,28 +244,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestService_TestServicePort_Client.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/mime/soapserver/TestService_TestServicePort_Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="0" selection-start="747" selection-end="747" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TestService_TestServicePort_Server.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../soapServer_Mime/src/mime/soapserver/TestService_TestServicePort_Server.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="7" column="32" selection-start="0" selection-end="923" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestService_TestServicePort_Server.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/mime/soapserver/TestService_TestServicePort_Server.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="26" selection-start="443" selection-end="493" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -195,19 +277,21 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/grails-app/controllers/soapclient/ClientController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/spring/resources.groovy" />
-        <option value="$PROJECT_DIR$/src/groovy/mime/soapserver/CustomInInterceptor.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
         <option value="$PROJECT_DIR$/src/java/noattachment/holders/soapserver/ServiceMethodResponse.java" />
+        <option value="$PROJECT_DIR$/../soapServer_Mime/testServiceMime.wsdl" />
+        <option value="$PROJECT_DIR$/src/java/mime/soapserver/TestService.java" />
+        <option value="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/soapclient/ClientController.groovy" />
+        <option value="$PROJECT_DIR$/src/groovy/mime/soapserver/CustomInInterceptor.groovy" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-4" />
+    <option name="x" value="-1684" />
     <option name="y" value="-4" />
-    <option name="width" value="1928" />
-    <option name="height" value="1148" />
+    <option name="width" value="1688" />
+    <option name="height" value="1058" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -345,6 +429,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="soapserver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="soapClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="soapClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="groovy" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -414,15 +520,34 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="282" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="289" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="296" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="296" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="975" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="970" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="291" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="285" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -607,35 +732,35 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1928" height="1148" extended-state="7" />
-    <editor active="true" />
+    <frame x="-1684" y="-4" width="1688" height="1058" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32903227" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44509804" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.755914" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.45" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Metrics" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32959402" sideWeight="0.55" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37806374" sideWeight="0.67096776" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -721,24 +846,35 @@
         <state line="9" column="0" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="jar://$project_jdk_name$/src.zip!/javax/xml/ws/Holder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="9" selection-start="438" selection-end="438" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/soapclient/ClientController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="40" selection-start="2247" selection-end="2247" vertical-scroll-proportion="-22.043478" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/spring/resources.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="9" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/groovy/mime/soapserver/CustomInInterceptor.groovy">
+    <entry file="file://$PROJECT_DIR$/src/java/noattachment/holders/soapserver/ServiceMethodResponse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="61" selection-start="2023" selection-end="2023" vertical-scroll-proportion="0.0">
+        <state line="17" column="22" selection-start="528" selection-end="528" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../soapServer_Mime/src/mime/soapserver/TestService_TestServicePort_Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="32" selection-start="0" selection-end="923" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../soapServer_Mime/testServiceMime.wsdl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="36" selection-start="1915" selection-end="1915" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/mime/soapserver/TestServiceServicePorts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="13" selection-start="957" selection-end="957" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -752,56 +888,116 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/mime/soapserver/ServiceMethodRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="29" selection-start="1001" selection-end="1001" vertical-scroll-proportion="0.0">
+        <state line="31" column="13" selection-start="844" selection-end="844" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/mime/soapserver/TestService.java">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/XMLSchema.xsd">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="46" selection-start="1146" selection-end="1146" vertical-scroll-proportion="0.0">
+        <state line="1657" column="1" selection-start="57348" selection-end="57348" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/mime/soapserver/TestServiceServicePorts.java">
+    <entry file="file://$PROJECT_DIR$/../soapServer_noMime/testServiceNoMime.wsdl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="13" selection-start="957" selection-end="957" vertical-scroll-proportion="0.0">
+        <state line="31" column="35" selection-start="1719" selection-end="1719" vertical-scroll-proportion="-16.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/noattachment/holders/soapserver/ServiceMethodResponse.java">
+    <entry file="file://$PROJECT_DIR$/src/java/nomime/soapserver/TestService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="22" selection-start="528" selection-end="528" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/mime/soapserver/TestService_TestServicePort_Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="747" selection-end="747" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../soapServer_Mime/src/mime/soapserver/TestService_TestServicePort_Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="32" selection-start="0" selection-end="923" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/mime/soapserver/TestService_TestServicePort_Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="26" selection-start="443" selection-end="493" vertical-scroll-proportion="0.0">
+        <state line="20" column="16" selection-start="563" selection-end="563" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="14" selection-start="2956" selection-end="3011" vertical-scroll-proportion="0.21511628">
+        <state line="75" column="39" selection-start="3235" selection-end="3235" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/mime/soapserver/TestService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="16" selection-start="559" selection-end="559" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$project_jdk_name$/src.zip!/javax/xml/ws/Holder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="9" selection-start="438" selection-end="438" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/mime/soapserver/ServiceMethodResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="13" selection-start="858" selection-end="858" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.apache.cxf/cxf-rt-frontend-jaxws/jars/cxf-rt-frontend-jaxws-2.3.0.jar!/org/apache/cxf/jaxws/interceptors/HolderInInterceptor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="1" selection-start="557" selection-end="557" vertical-scroll-proportion="0.312187">
+          <folding>
+            <element signature="e#0#557#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.apache.cxf/cxf-api/jars/cxf-api-2.3.0.jar!/org/apache/cxf/message/MessageContentsList.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="4" selection-start="439" selection-end="439" vertical-scroll-proportion="0.28380635">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.grails/1.3.7/projects/soapClient/plugins/cxf-client-1.2.9/src/groovy/com/grails/cxf/client/WebServiceClientFactoryImpl.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="263" column="0" selection-start="13685" selection-end="13685" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/soapclient/ClientController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="126" selection-start="2884" selection-end="2884" vertical-scroll-proportion="-13.521739">
+          <folding>
+            <element signature="e#20#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$project_jdk_name$/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="546" column="0" selection-start="20073" selection-end="20073" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/My Documents/Downloads/apache-cxf-2.5.2-src.zip!/apache-cxf-2.5.2-src/api/src/main/java/org/apache/cxf/message/MessageContentsList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="50" selection-start="2263" selection-end="2263" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/My Documents/Downloads/apache-cxf-2.5.2-src.zip!/apache-cxf-2.5.2-src/rt/frontend/jaxws/src/main/java/org/apache/cxf/jaxws/interceptors/HolderInInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="0" selection-start="2453" selection-end="2453" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/groovy/mime/soapserver/CustomInInterceptor.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="21" selection-start="2122" selection-end="2344" vertical-scroll-proportion="0.39517626">
           <folding />
         </state>
       </provider>
@@ -832,6 +1028,94 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Hibernate</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>grails-1.3.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.5</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>soapClient</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.5</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
 

@@ -73,7 +73,7 @@ cxf {
       clientInterface = mime.soapserver.TestService
       serviceEndpointAddress = "http://localhost:8081/soapServerMime/services/test"
       inInterceptors = ['customInInterceptor']
-      wsdlArgs = ['-exsh','true','-server','-client']
+      wsdlArgs = ['-exsh','true','-all']
     }
     demoNoMimeClient {
       wsdl = "http://localhost:8082/soapServerNoMime/services/test?wsdl"
