@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/soapClient.iml" filepath="$PROJECT_DIR$/soapClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/soapClient-grailsPlugins.iml" filepath="$PROJECT_DIR$/soapClient-grailsPlugins.iml" />
     </modules>
   </component>
 </project>

@@ -79,7 +79,7 @@ public class ServiceMethodResponse {
      *     byte[]
      */
     public void setAttachment(byte[] value) {
-        this.attachment = value;
+        this.attachment = ((byte[]) value);
     }
 
 }

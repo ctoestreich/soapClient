@@ -66,13 +66,14 @@ environments {
 }
 
 cxf {
-  //installDir = "./apache-cxf-2.5.2" //only used for wsdl2java script target
+  installDir = "c:/apps/apache-cxf-2.4.2" //only used for wsdl2java script target
   client {
     demoMimeClient {
       wsdl = "http://localhost:8081/soapServerMime/services/test?wsdl"
       clientInterface = mime.soapserver.TestService
       serviceEndpointAddress = "http://localhost:8081/soapServerMime/services/test"
-        inInterceptors = ['customInInterceptor']
+      inInterceptors = ['customInInterceptor']
+      wsdlArgs = ['-exsh','true','-server','-client']
     }
     demoNoMimeClient {
       wsdl = "http://localhost:8082/soapServerNoMime/services/test?wsdl"
