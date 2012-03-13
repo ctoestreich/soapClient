@@ -49,7 +49,10 @@ public class CustomInInterceptor extends AbstractPhaseInterceptor<Message> {
                 if (part.getIndex() != 0 && part.getTypeClass() != null) {
                     @SuppressWarnings("unchecked")
                     Holder<Object> holder = (Holder<Object>)outHolders.get(part.getIndex() - 1);
-                    if (holder != null) {
+                    //adding the check allows this to continue on
+                    //but it still kaks in the actual HolderInInterceptor
+                    if (holder != null
+                            && part.getIndex() < inObjects.size()) {
                         holder.value = inObjects.get(part);
                         inObjects.put(part, holder);
                     }
