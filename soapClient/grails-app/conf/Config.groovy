@@ -66,27 +66,30 @@ environments {
 }
 
 cxf {
-  installDir = "c:/apps/apache-cxf-2.4.2" //only used for wsdl2java script target
+  //installDir = "./apache-cxf-2.5.2" //only used for wsdl2java script target
   client {
     demoMimeClient {
       wsdl = "http://localhost:8081/soapServerMime/services/test?wsdl"
+      wsdlServiceName = '{http://soapserver.mime/}TestServiceServicePorts'
       clientInterface = mime.soapserver.TestService
       serviceEndpointAddress = "http://localhost:8081/soapServerMime/services/test"
-      inInterceptors = ['customInInterceptor']
-      wsdlArgs = ['-exsh','true','-all']
     }
     demoNoMimeClient {
       wsdl = "http://localhost:8082/soapServerNoMime/services/test?wsdl"
+      wsdlServiceName = '{http://soapserver.nomime/}TestServiceServicePorts'
       clientInterface = nomime.soapserver.TestService
+      inInterceptors = ['customLoggingInInterceptor']
       serviceEndpointAddress = "http://localhost:8082/soapServerNoMime/services/test"
     }
     demoHoldersNoAttachmentClient {
       wsdl = "http://localhost:8083/soapServerHoldersNoAttachment/services/test?wsdl"
+      wsdlServiceName = '{http://soapserver.holders.noattachment/}TestServiceServicePorts'
       clientInterface = noattachment.holders.soapserver.TestService
       serviceEndpointAddress = "http://localhost:8083/soapServerHoldersNoAttachment/services/test"
     }
     demoNoHoldersClient {
-      wsdl = "http://localhost:8084/soapServerNoHolders/services/test?wsdl"
+      //wsdl = "http://localhost:8084/soapServerNoHolders/services/test?wsdl"
+      //wsdlServiceName = '{http://soapserver.noholders/}TestServiceServicePorts'
       clientInterface = noholders.soapserver.TestService
       serviceEndpointAddress = "http://localhost:8084/soapServerNoHolders/services/test"
     }
@@ -101,7 +104,8 @@ log4j = {
     //appenders {
     //    console name:'stdout', layout:pattern(conversionPattern: '%c{2} %m%n')
     //}
-
+    all 'soapclient', 'org.apache.cxf', 'com.grails.cxf.client'
+    
     error  'org.codehaus.groovy.grails.web.servlet',  //  controllers
            'org.codehaus.groovy.grails.web.pages', //  GSP
            'org.codehaus.groovy.grails.web.sitemesh', //  layouts
