@@ -42,7 +42,7 @@ class ClientController {
                 javax.xml.ws.Holder<mime.soapserver.ServiceMethodResponse> _serviceMethod_outputParameters = new javax.xml.ws.Holder<mime.soapserver.ServiceMethodResponse>();
                 javax.xml.ws.Holder<byte[]> _serviceMethod_attachment = new javax.xml.ws.Holder<byte[]>();
                 demoMimeClient.serviceMethod(_serviceMethod_inputParameters, _serviceMethod_outputParameters, _serviceMethod_attachment)
-                //context = [soapResult:myServiceMethodResponseHolder.value.getResponse(), attachment:myAttachmentHolder.value]
+                context = [soapResult:_serviceMethod_outputParameters.value.getResponse(), attachment:_serviceMethod_attachment.value]
                 break
             default:
                 break
